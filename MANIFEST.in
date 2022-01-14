@@ -1,0 +1,6 @@
+include README.md
+include requirements.txt
+graft spideradmin/static
+graft spideradmin/templates
+global-include *.py
+global-exclude *.pyc
